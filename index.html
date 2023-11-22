@@ -3,108 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sinema Bileti Rezervasyonu</title>
-<link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
 
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    padding: 12px 16px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+    </style>
 </head>
-
 <body>
-<div class="container">
-    <div class="screen"></div>
-    <div class="row">
-    <div class="seat"></div>
-    <div class="seat reserved"></div>
-    <div class="seat reserved"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div>
-
-
-<div class="row">
-    <div class="seat"></div>
-    <div class="seat reserved"></div>
-    <div class="seat reserved"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div>
-
-<div class="row">
-    <div class="seat"></div>
-    <div class="seat reserved"></div>
-    <div class="seat reserved"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div>
-
-<div class="row">
-    <div class="seat"></div>
-    <div class="seat reserved"></div>
-    <div class="seat reserved"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div>
-
-<div class="row">
-    <div class="seat"></div>
-    <div class="seat reserved"></div>
-    <div class="seat reserved"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div>
-
-<div class="row">
-    <div class="seat"></div>
-    <div class="seat reserved"></div>
-    <div class="seat reserved"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div>
-</div>
-
-<div class="movie-list">
-    <select name="" id="movie">
-        <option >Film Seçiniz</option>
-        <option value="20">Arrival</option>
-        <option value="22">Oppenhaimer</option>
-        <option value="24">Yıldızlararası</option>
-    </select>
-</div>
-
-<ul class="info">
-    <li>
-        <div class="seat selected"></div>
-        <small>Seçili</small>
-    </li>
-
-    <li>
-        <div class="seat"></div>
-        <small>Boş</small>
-    </li>
-
-    <li>
-        <div class="seat reserved"></div>
-        <small>Dolu</small>
-    </li>
-</ul>
-
-
-<p class="text">
-    <span id="count">0</span> adet koltuk için hesaplanan ücret:
-    <span id="amount">0</span>₺
-</p>
+   
     
+<div class="btn-div">
+    <button id="btn">Ülkeleri Göster</button>
+</div>
+
+<div class="container">
+
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./data kopyası.js"></script>
     <script src="./script.js"></script>
+    
 </body>
 </html>
